@@ -1,0 +1,83 @@
+html {
+    height : 100%;
+}
+
+body {
+    background-color : #D3D3D3;
+    height : 100%;
+    margin : 0 auto;
+    width : 80%;
+}
+
+.scoreboard {
+    display : flex;
+    justify-content: space-between;
+}
+
+.scoreboard p {
+    text-align : right;
+    padding-top : 20px;
+}
+
+.letterbox {
+    width : 50%;
+    margin : 0 auto;
+    display : flex;
+    justify-content : space-evenly;
+    padding : 50px;
+}
+
+.letterbox p {
+    font-size : 100px;
+}
+
+.letter {
+    width : 100px;
+    height : 100px;
+    background-color : white;
+    border-radius : 4px;
+    margin : 0 auto;
+    border-style : solid;
+    border-color : black;
+    border-width : 4px;
+}
+
+.correct {
+    color : green;
+}
+
+.wrong {
+    color : red;
+}
+
+h1 {
+    font-size : 75px;
+    font-family: 'Monospace', 'Courier New';
+    font-weight : 500;
+    text-align : center;
+    padding-top: 50px;
+}
+
+h2 {
+    font-size : 40px;
+    font-family: 'Monospace', 'Courier New';
+    font-weight : 500;
+    text-align : center;
+    padding-top: 50px;
+}
+
+h3 {
+    font-size : 30px;
+    font-family: 'Monospace', 'Courier New';
+    font-weight : 500;
+    text-align : center;
+    padding-top: 30px;
+    
+}
+
+p {
+    font-size : 20px;
+    font-family : 'Monospace', 'Courier New';
+    font-weight : 500;
+    text-align : center;
+}

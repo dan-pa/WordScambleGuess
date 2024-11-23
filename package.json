@@ -1,0 +1,15 @@
+{
+  "name": "ekreb",
+  "version": "1.0.0",
+  "description": "This is the ekreb application for Change",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Park",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
